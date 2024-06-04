@@ -1,0 +1,22 @@
+body {
+    color: #e5e5e5;
+    background-color: #050505;
+    margin: 0;
+  }
+
+#theHeader{
+    font-size: 15px;
+}
+
+pre{
+    margin-left: 38%;
+    margin-top: 0;
+}
+
+#feed{
+    margin-left: 10%;
+    margin-right: 10%;
+    border-color: gainsboro;
+    border-radius: 1;
+    border-style: solid;
+}
