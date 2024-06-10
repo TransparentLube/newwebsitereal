@@ -4,6 +4,38 @@ body {
     margin: 0;
   }
 
+a{
+    text-decoration: none;
+    color: aliceblue;
+}
+
+p{
+    margin: 5px 0;
+}
+
+#timestamp{
+    padding-right: 10px;
+}
+
+#row{
+    padding 5px 0; 
+    margin-top: 2px;
+}
+#title, ol{
+    margin: 0;
+}
+
+#bottom, #topcomment{
+    display: flex;
+    font-size: 12px; 
+}
+
+button{
+    display: block;
+    margin: 10px 0;
+    margin-left: 1%;
+}
+
 #theHeader{
     font-size: 15px;
 }
@@ -19,4 +51,25 @@ pre{
     border-color: gainsboro;
     border-radius: 1;
     border-style: solid;
+    background-color: darkslategrey;
+}
+
+#header{
+    margin-left: 1%;
+}
+
+#comments{
+    margin-left: 1%;
+    margin: 40px 0;
+}
+
+#commenttextbox{
+    margin-left: 1%;
+    width: 20%;
+    height: 130px;
+}
+
+#comment{
+    margin: 10px 0;
+    margin-left: 1%;
 }
